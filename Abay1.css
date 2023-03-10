@@ -1,0 +1,224 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.7em;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: black;
+}
+.float_r {
+	float: right;
+	
+       }
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+/* menu bar link css start */.............................................................................................
+#Abay_menu3, #Abay_menu3 ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+#Abay_menu1{
+width: 50%;
+height:40px;
+margin: 0px auto;
+background-color: #282828;
+ border:2px solid white;
+border-radius: 6px;
+}
+#Abay_menu3 {
+width: 1250px;
+height:40px;
+margin: 0px auto;
+zoom:1;
+font-family:Elephant;
+}
+#Abay_menu3 li {
+float: left;
+border-right: 1px solid #222;
+position: relative;
+list-style: none;
+font-family:Elephant;
+}
+#Abay_menu3 a {
+float: left;
+padding: 12px 25px;
+color: #ffffff;
+text-transform: uppercase;
+font: bold 12px Arial, Helvetica;
+text-decoration: none;
+text-shadow: 0 1px 0 #000;
+font-family:Elephant;
+}
+#Abay_menu3 li:hover > a {
+background-image: url(images/img.jpg);
+}
+#Abay_menu3 ul {
+margin: 20px 0 0 0;
+_margin: 0; /*IE6 only*/
+opacity: 0;
+visibility: hidden;
+position: absolute;
+top: 38px;
+font-family:Elephant;
+left: 0;
+z-index: 9999;
+background: #444;
+background: -moz-linear-gradient(#444, #111);
+background-image: -webkit-gradient(linear, left top, left bottom, from(#444), to(#111));
+background: -webkit-linear-gradient(#444, #111);
+background: -o-linear-gradient(#444, #111);
+background: -ms-linear-gradient(#444, #111);
+background: linear-gradient(#444, #111);
+}
+#Abay_menu3 li:hover > ul {
+opacity: 1;
+visibility: visible;
+margin: 0;
+font-family:Elephant;
+}
+#Abay_menu3 ul ul {
+top: 0;
+left: 150px;
+margin: 0 0 0 20px;
+font-family:Elephant;
+_margin: 0; /*IE6 only*/
+}
+#Abay_menu3 ul li {
+float: none;
+padding: 5px;
+display: block;
+border: 0;
+font-family:Elephant;
+_line-height: 0; /*IE6 only*/
+}
+
+#Abay_menu3 ul a {
+padding: 10px;
+width: 130px;
+_height: 10px; /*IE6 only*/
+display: block;
+white-space: nowrap;
+float: none;
+text-transform: none;
+font-family:Elephant;
+}
+#Abay_menu3 ul a:hover {
+background-image: url(images/img.jpg);
+}
+
+
+#Abay_menu1{
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0 0px;
+	color: #101010;
+}
+/* site title */
+#Abay_header {
+
+	height: 140px;
+    background: url(images/logo2.jpg) ;
+}
+
+#header2
+{
+height:150px;
+float:left;
+width:800%;
+}
+/*menu bar link css end..................................................................................*/
+
+
+/*center content start........................................................... .......................*/
+#Abay_Content_Outter {
+	clear: both;
+	width: 100%;
+	/*padding: 30px 0; */
+	background: url(images/money.jpg) repeat;	
+}
+#Abay_Content_Inner {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+		
+}
+#Abay_Content{
+	width: 910px;
+	padding-left: 90px;
+	background: url(images/templatemo_main_content_middle.png) center repeat-y;
+}
+#templatemo_content_bottom{
+	width: 1000px;
+	height: 35px;
+	background:url(images/templatemo_main_content_bottom.png) top center no-repeat;
+}
+.section_w860 {
+	clear: both;
+	width: 840px;
+}
+.section_w380r{
+
+	width: 800px;
+	margin-left:20px;	
+}
+.section_w380r h2 {
+	background: url(images/forAll.png) right top repeat;
+	border-radius:5px;
+	color:SeaShell;
+	font-family:Elephant;
+	height:40px;
+	
+}
+	.error{
+	width:92%;
+	margin:0px auto;
+	padding:10px;
+	border:1px solid #a94442;
+	color:#a94442;
+	background:#f2dede;
+	border-radius:5px;
+	text-align:left;
+	}
+.section_w380r h1 {
+	background: url(images/forAll.png) right top repeat;
+	border-radius:5px;
+	font-family:Elephant;
+	color:SeaShell;
+	height:40px;
+	
+}
+.section_w380r table{
+	font-family:Baskerville Old Face;
+	background-color:SeaShell;
+	border-radius:15px;
+	width: 800px;
+	 height=400px
+	
+}
+.section_w380r   th{
+color:White;
+background-color:MediumPurple ;
+font-family:Times New Roman;
+}
+
+/*center content end........................................................... */
+/* footer  start................................................................*/
+
+#templatemo_footer_wrapper {
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px 0;
+	background: url(images/bag.jpg) repeat-x top;
+}
+#templatemo_footer {
+	width: 740px;
+	margin: 0 auto;
+	padding: 0 80px;
+	color: #cccccc;
+}
+/* end of footer................................................................. */
+
